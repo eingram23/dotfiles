@@ -1,0 +1,31 @@
+{
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/$defs/playbook": "file:///Users/edwardingram/code/ansible/projects/homelab/playbooks/kubernetes/install_dashboard.yaml",
+        "https://json.schemastore.org/prometheus.json": "file:///Users/edwardingram/code/configs/prometheus/prometheus.yml"
+    },
+    "ansible.python.interpreterPath": "/Users/edwardingram/.pyenv/versions/3.11.4/bin/python",
+    "files.associations": {
+        "*.tf": "terraform",
+        "*.tfvars": "terraform",
+        "**/.github/workflows/*.yml": "github-actions-workflow",
+        "**/.github/workflows/*.yaml": "github-actions-workflow",
+        "**/ansible/**/*.yaml": "ansible",
+        "**/ansible/**/*.yml": "ansible",
+        "*.py": "python",
+    },
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "github.vscode-github-actions"
+    },
+    "[ansible]": {
+        "editor.defaultFormatter": "redhat.ansible",
+        "editor.formatOnSave": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true
+    }
+}
