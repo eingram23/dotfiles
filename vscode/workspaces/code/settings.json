@@ -9,6 +9,8 @@
         "*.tfvars": "terraform",
         "**/.github/workflows/*.yml": "github-actions-workflow",
         "**/.github/workflows/*.yaml": "github-actions-workflow",
+        "**/reusable_workflows/**/*.yaml": "github-actions-workflow",
+        "**/reusable_workflows/**/*.yml": "github-actions-workflow",
         "**/ansible/**/*.yaml": "ansible",
         "**/ansible/**/*.yml": "ansible",
         "*.py": "python",
