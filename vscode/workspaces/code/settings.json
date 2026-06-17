@@ -34,5 +34,9 @@
         "editor.defaultFormatter": "ms-python.python",
         "editor.formatOnSave": true
     },
-    "terminal.integrated.fontFamily": "Hack Nerd Font Mono"
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+    "sonarlint.connectedMode.project": {
+        "connectionId": "eingram-homelab",
+        "projectKey": "eingram-homelab_reusable-workflows"
+    }
 }
